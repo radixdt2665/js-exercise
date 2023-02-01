@@ -302,7 +302,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   .sub-menu-link::before{position: absolute;content: ''; width: 0px;height: 2px;background-color: var(--color-white);top: 50%;transition: all 0.3s linear;left: 0;}
   .sub-menu-link:hover span{transition: all 0.3s linear;transform: translateX(20px);}
   .sub-menu-link:hover::before{width: 10px;transition: all 0.3s linear;left: 0;}
-  .nav-link:hover .hover-menu{opacity: 1;transition: all 0.3s linear;display: block;visibility: visible;}
+  .nav-link .hover-menu.classAdded{opacity: 1;transition: all 0.3s linear;display: block;visibility: visible;}
   .nav-link a::after{position: absolute;content: '';border-left: 5px solid transparent;border-right: 5px solid transparent;border-bottom: 5px solid var(--theme-color-black);opacity: 0;bottom: 0;left: 50%;transform: translateX(-50%);}
   .nav-link:hover a::after{opacity: 1;transition: all 0.3s linear;}
   .hover-menu.w-full{width: 100%;left: 0;}
