@@ -1,0 +1,20 @@
+https://jsfiddle.net/uu152uu9/1/
+
+https://www.w3schools.com/jsref/event_preventdefault.asp
+
+https://stackoverflow.com/questions/19639287/add-class-active-when-clicking-the-menu-link-with-jquery
+
+https://stackoverflow.com/questions/41693832/disable-a-link-after-click-using-jquery
+
+https://www.programiz.com/javascript/forEach
+
+
+
+---diff of let and var----
+https://www.programiz.com/javascript/let-vs-var
+
+
+-------------learining topics---------------------------
+
+https://www.javascripttutorial.net/javascript-dom/javascript-removechild/
+https://www.javascripttutorial.net/javascript-dom/javascript-insertbefore/
