@@ -172,3 +172,85 @@ console.log(true || false); // true
 
 // logical NOT
 console.log(!true); // false
+
+
+// if else condition
+let number = 2;
+if (number > 0) {
+    console.log(true,"condition true");
+    // code block 1
+} else {
+    console.log(false,"condition false");
+    // code block 3
+}
+
+
+
+
+
+
+addEventListener('DOMContentLoaded', (event) => {
+    console.log('The DOM is fully loaded.');
+});
+
+addEventListener('load', (event) => {
+    console.log('The page is fully loaded.');
+});
+
+addEventListener('beforeunload', (event) => {
+    // show the confirmation dialog
+    event.preventDefault();
+    // Google Chrome requires returnValue to be set.
+    event.returnValue = '';
+});
+
+addEventListener('unload', (event) => {
+    // send analytic data
+});
+
+
+
+
+let btn = document.getElementById('btnRate');
+let output = document.getElementById('output');
+
+btn.addEventListener('click', () => {
+    let rates = document.getElementsByName('rate');
+    rates.forEach((rate) => {
+        if (rate.checked) {
+            output.innerText = `You selected: ${rate.value}`;
+        }
+    });
+
+});
+
+let currentNext = document.querySelector('.current');
+let nextSibling = currentNext.nextElementSibling.innerHTML;
+console.log(nextSibling,"nextSibling");
+
+let current2 = document.querySelector('.current');
+let prevSiblings = current2.previousElementSibling.innerHTML;
+console.log(prevSiblings,"previousSibling");
+
+let getSiblings = function (e) {
+    // for collecting siblings
+    let siblings = []; 
+    // if no parent, return no sibling
+    if(!e.parentNode) {
+        return siblings;
+    }
+    // first child of the parent node
+    let sibling  = e.parentNode.firstChild;
+    // collecting siblings
+    while (sibling) {
+        if (sibling.nodeType === 1 && sibling !== e) {
+            siblings.push(sibling);
+        }
+        sibling = sibling.nextSibling;
+    }
+    return siblings;
+};
+
+let siblings = getSiblings(document.querySelector('.current'));
+siblingText = siblings.map(e => e.innerHTML);
+console.log(siblingText);

@@ -18,3 +18,10 @@ https://www.programiz.com/javascript/let-vs-var
 
 https://www.javascripttutorial.net/javascript-dom/javascript-removechild/
 https://www.javascripttutorial.net/javascript-dom/javascript-insertbefore/
+
+
+
+https://www.javascripttutorial.net/javascript-dom/javascript-getelementsbyclassname/
+https://www.javascripttutorial.net/javascript-dom/javascript-getelementbyid/
+https://www.javascripttutorial.net/javascript-dom/javascript-events/
+
